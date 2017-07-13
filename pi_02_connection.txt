@@ -51,8 +51,8 @@ while (checker==True):
         if distance < 100 and distance > 0:
                 if distance< temp-5 or distance > temp+5:
                         try:
-                                #con=MySQLdb.connect(host="127.0.0.1",port=3306,user="root",db="pitest")
-                                #con=MySQLdb.connect(host="192.168.137.1",port=3306,user="test",passwd="test",db="pitest")
+                                #con=MySQLdb.connect(host="127.0.0.1",port=3628,user="root",db="MiniProect")
+                                #con=MySQLdb.connect(host="192.168.137.1",port=3628,user="test",passwd="",db="MiniProect")
                                 #curs=con.cursor()
                                 #curs.execute ("UPDATE dusbins  SET fillPercentage=%s  WHERE dusid= 1 ",(distance))
                                 #curs.execute("""SELECT * FROM tempdata""")
